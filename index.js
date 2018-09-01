@@ -13,38 +13,6 @@ function theBeatlesPlay(){
 
 //build a while loop
 
-//with for loop example
-/*function johnLennonFacts(){
-   var emptyArray=[]
-         var facts=[
-        "He was the last Beatle to learn to drive",
-        "He was never a vegetarian",
-        "He was a choir boy and boy scout",
-        "He hated the sound of his own voice"
-      ]
-   
-    for (var i=0; i<facts.length; i++){
-        emptyArray.push(facts[i] + " !!!")
-    }
-    return emptyArray;
-}*/
-
-/*function johnLennonFacts(){
-   var emptyArray=[];
-         var i=0;
-        var facts=[
-        "He was the last Beatle to learn to drive",
-        "He was never a vegetarian",
-        "He was a choir boy and boy scout",
-        "He hated the sound of his own voice"
-        ]; 
-         while(i<facts.length){
-        emptyArray.push(facts[i] + "!!!");
-          i++;  
-           
-         }
-    return emptyArray;
-}*/
 function johnLennonFacts(facts){
   var i=0;
   while(i<facts.length){
