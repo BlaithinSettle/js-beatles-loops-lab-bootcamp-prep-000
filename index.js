@@ -55,11 +55,11 @@ return facts;
 }
 
 //do while loop 
-function iLoveTheBeatles(){
-    var emptyVar=[];
+function iLoveTheBeatles(number){
+    var array=[];
    var num=0;
-     do{ emptyVar.push("I love the Beatles!");
+     do{ array.push("I love the Beatles!");
        num++;
-      } while (num<15)
-          return emptyVar;
+      } while (number<15)
+          return array;
 }
