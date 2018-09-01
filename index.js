@@ -57,7 +57,7 @@ return facts;
 //do while loop 
 function iLoveTheBeatles(number){
     var array=[];
-   var num=0;
+   
      do{ array.push("I love the Beatles!");
        num++;
       } while (number<15)
